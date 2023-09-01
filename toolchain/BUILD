@@ -9,6 +9,7 @@ cc_toolchain_suite(
     toolchains = {
         "darwin": ":cc_toolchain_darwin",
         "k8": ":cc_toolchain_linux_x86_64",
+        "amd64": ":cc_toolchain_linux_aarch64",
         "x64_windows": ":cc_toolchain_windows_x86_32",
     },
 )
